@@ -78,14 +78,45 @@
         margin-left: auto;
         margin-right: auto;
       }
-
-      .column {
-        flex: 50%;
-        padding: 10 15px;
+      .item-topup {
+        padding: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
       }
-
-      .column img {
-        margin: 15px;
+      .item-topup .item {
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        height: 270px;
+        width: 180px;
+        box-sizing: border-box;
+      }
+      .bayangan {
+        box-shadow: 4px 7px 28px 0px rgb(255, 255, 255);
+      }
+      .item figure {
+        padding: 0px;
+        margin: 0px;
+      }
+      .item figure img {
+        height: 160px;
+        width: 160px;
+      }
+      .item .title-card {
+        color: white;
+        text-transform: capitalize;
+      }
+      .item a {
+        border-radius: 25%;
+        font-size: 15px;
+        text-decoration: none;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
       }
 
       footer {
@@ -103,10 +134,10 @@
         display: flex;
         align-items: center;
       }
-          footer figure {
+      footer figure {
         display: flex;
         flex-direction: flex-end;
-          width: 210px;
+        width: 210px;
         height: 40px;
       }
     </style>
@@ -114,9 +145,11 @@
 
   <body>
     <nav>
-      <div class="logo"><figure>
-            <img src="resource/GOMA.png" />
-        </figure></div>
+      <div class="logo">
+        <figure>
+          <img src="resource/GOMA.png" />
+        </figure>
+      </div>
       <div class="menu-right">
         <ul>
           <li><a href="index.html">home</a></li>
@@ -135,86 +168,103 @@
     <main>
       <section>
         <h1>List Kategori</h1>
-        <button>All</button>
-        <button>Game Favorit</button>
-        <button>Voucher</button>
-        <figure>
-          <div class="column">
-            <a href="topup-detail.html">
-              <img
-                src="resource/pubg.jpg"
-                alt="gambar"
-                width="198"
-                height="210"
-            /></a>
-            <a href="topup-detail.html">
-              <img
-                src="resource/ml.jpg"
-                alt="gambar"
-                width="198"
-                height="210"
-              />
-            </a>
-            <a href="topup-detail.html">
-              <img
-                src="resource/genshin.png"
-                alt="gambar"
-                width="198"
-                height="210"
-            /></a>
-            <a href="topup-detail.html">
-              <img src="resource/ros.jpg" alt="gambar" width="198" height="210"
-            /></a>
-            <a href="topup-detail.html">
-              <img
-                src="resource/freefire.jpg"
-                alt="gambar"
-                width="198"
-                height="210"
-            /></a>
+        <div class="kategori">
+          <button>All</button>
+          <button>Game Favorit</button>
+          <button>Voucher</button>
+        </div>
+        <div class="item-topup">
+          <div class="item">
+            <figure>
+              <img src="resource/genshin.png" alt="genshin" />
+            </figure>
+            <div class="title-card">genshin impact</div>
+            <a href="topup-detail.html">Topup</a>
           </div>
-          <div class="column">
-            <a href="topup-detail.html">
-              <img
-                src="resource/pubg.jpg"
-                alt="gambar"
-                width="198"
-                height="210"
-            /></a>
-            <a href="topup-detail.html">
-              <img
-                src="resource/ml.jpg"
-                alt="gambar"
-                width="198"
-                height="210"
-              />
-            </a>
-            <a href="topup-detail.html">
-              <img
-                src="resource/genshin.png"
-                alt="gambar"
-                width="198"
-                height="210"
-            /></a>
-            <a href="topup-detail.html">
-              <img src="resource/ros.jpg" alt="gambar" width="198" height="210"
-            /></a>
-            <a href="topup-detail.html">
-              <img
-                src="resource/freefire.jpg"
-                alt="gambar"
-                width="198"
-                height="210"
-            /></a>
+          <div class="item">
+            <figure>
+              <img src="resource/genshin.png" alt="genshin" />
+            </figure>
+            <div class="title-card">genshin impact</div>
+            <a href="topup-detail.html">Topup</a>
           </div>
-          <img class="tengah" src="resource/unipin" />
-        </figure>
+          <div class="item">
+            <figure>
+              <img src="resource/genshin.png" alt="genshin" />
+            </figure>
+            <div class="title-card">genshin impact</div>
+            <a href="topup-detail.html">Topup</a>
+          </div>
+          <div class="item">
+            <figure>
+              <img src="resource/genshin.png" alt="genshin" />
+            </figure>
+            <div class="title-card">genshin impact</div>
+            <a href="topup-detail.html">Topup</a>
+          </div>
+          <div class="item">
+            <figure>
+              <img src="resource/genshin.png" alt="genshin" />
+            </figure>
+            <div class="title-card">genshin impact</div>
+            <a href="topup-detail.html">Topup</a>
+          </div>
+          <div class="item">
+            <figure>
+              <img src="resource/genshin.png" alt="genshin" />
+            </figure>
+            <div class="title-card">genshin impact</div>
+            <a href="topup-detail.html">Topup</a>
+          </div>
+          <div class="item">
+            <figure>
+              <img src="resource/genshin.png" alt="genshin" />
+            </figure>
+            <div class="title-card">genshin impact</div>
+            <a href="topup-detail.html">Topup</a>
+          </div>
+          <div class="item">
+            <figure>
+              <img src="resource/genshin.png" alt="genshin" />
+            </figure>
+            <div class="title-card">genshin impact</div>
+            <a href="topup-detail.html">Topup</a>
+          </div>
+          <div class="item">
+            <figure>
+              <img src="resource/genshin.png" alt="genshin" />
+            </figure>
+            <div class="title-card">genshin impact</div>
+            <a href="topup-detail.html">Topup</a>
+          </div>
+          <div class="item">
+            <figure>
+              <img src="resource/genshin.png" alt="genshin" />
+            </figure>
+            <div class="title-card">genshin impact</div>
+            <a href="topup-detail.html">Topup</a>
+          </div>
+          <div class="item">
+            <figure>
+              <img src="resource/genshin.png" alt="genshin" />
+            </figure>
+            <div class="title-card">genshin impact</div>
+            <a href="topup-detail.html">Topup</a>
+          </div>
+          <div class="item">
+            <figure>
+              <img src="resource/genshin.png" alt="genshin" />
+            </figure>
+            <div class="title-card">genshin impact</div>
+            <a href="topup-detail.html">Topup</a>
+          </div>
+        </div>
       </section>
     </main>
     <footer>
-     <figure>
-            <img src="resource/GOMA.png" />
-        </figure>
+      <figure>
+        <img src="resource/GOMA.png" />
+      </figure>
       <ul>
         <li><a href="">home</a></li>
         <li><a href="">news</a></li>
@@ -242,5 +292,22 @@
       </div>
     </footer>
     <script src="iconify.min.js"></script>
+    <script>
+      // top up
+      const item = document.querySelectorAll(".item-topup .item");
+      console.log(item);
+      item.forEach((element) => {
+        element.addEventListener("mouseover", (e) => {
+          if (e.target.classList.contains("item")) {
+            e.target.classList.add("bayangan");
+          }
+        });
+        element.addEventListener("mouseout", (e) => {
+          if (e.target.classList.contains("item")) {
+            e.target.classList.remove("bayangan");
+          }
+        });
+      });
+    </script>
   </body>
 </html>
