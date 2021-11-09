@@ -1,0 +1,224 @@
+.logo figure {
+  display: flex;
+  justify-content: flex-end;
+  width: 210px;
+  height: 40px;
+}
+
+nav {
+  height: 60px;
+  background-color: #334756;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body {
+  background-color: #082032;
+}
+
+.image figure {
+  max-width: 62%;
+}
+
+.card {
+  margin: 0.5em 1.2em 0.5em 0.1em;
+  height: 14em;
+  max-width: 62%;
+  flex: 1 1 auto;
+  display: flex;
+  background-color: #082032;
+  box-shadow: 1px 3px 3px rgba(0, 10, 20, 0.06);
+  border-radius: 15px;
+}
+
+.card figure {
+  flex-basis: 30%;
+}
+
+.card figure img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  flex: 1 1 auto;
+  border-radius: 8px 8px 8px 8px;
+}
+
+.card-body {
+  width: 12em;
+  max-height: 100%;
+  flex: 1 1 auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  padding: 1em;
+}
+
+.card-body button {
+  min-width: 8.3em;
+  flex: none;
+  align-self: flex-end;
+  margin-top: auto;
+  padding: 0.6em 1.2em;
+  font-size: 0.92em;
+  color: #ffffff;
+  background: none;
+  border: 0.5px solid #777;
+  border-radius: 5px;
+}
+
+.card-body button:hover {
+  border-color: #bbdefb;
+  background: #0f2c43;
+}
+
+.card-text {
+  position: relative;
+  flex: 1;
+
+  text-overflow: ellipsis;
+  margin: 0 0 0.8em 0;
+  padding: 0;
+}
+
+.card-text h3,
+.card-text p {
+  margin-top: 0;
+}
+
+.card-text:after {
+  position: absolute;
+  bottom: 0;
+  content: "";
+  width: 100%;
+  height: 1em;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 20px 0px 20px 66px;
+  color: #ffffff;
+}
+
+h2 {
+  color: #ffffff;
+}
+
+p {
+  color: #ffffff;
+}
+
+.menu-right {
+  margin-right: 90px;
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+ul li {
+  width: 100px;
+}
+
+ul li:hover {
+  cursor: pointer;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+nav .menu-right button.login {
+  margin-left: 20px;
+  width: 88px;
+  height: 41px;
+  background-color: #ff4c29;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.menu-right button.login:hover {
+  cursor: pointer;
+  background-color: #ca391c;
+}
+
+.menu-right a {
+  color: white;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  height: 130px;
+  background-color: #334756;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #000000;
+  text-transform: capitalize;
+}
+
+footer .sosial-media {
+  display: flex;
+  align-items: center;
+}
+
+    footer figure {
+        display: flex;
+        flex-direction: flex-end;
+          width: 210px;
+        height: 40px;
+      }

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .logo figure {
+        display: flex;
+        justify-content: flex-end;
+        width: 210px;
+        height: 40px;
+      }
+      nav {
+        height: 60px;
+        background-color: #334756;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+      body {
+        background-color: #082032;
+      }
+      .menu-right {
+        margin-right: 90px;
+        display: flex;
+        align-items: center;
+      }
+      ul {
+        list-style-type: none;
+        display: flex;
+      }
+      ul li {
+        width: 100px;
+      }
+      ul li:hover {
+        cursor: pointer;
+      }
+      ul li a {
+        text-decoration: none;
+        color: #ffffff;
+        text-transform: capitalize;
+      }
+
+      nav .menu-right button.login {
+        margin-left: 20px;
+        width: 88px;
+        height: 41px;
+        background-color: #ff4c29;
+        color: #ffffff;
+        border-radius: 10px;
+      }
+      .menu-right button.login:hover {
+        cursor: pointer;
+        background-color: #ca391c;
+      }
+      #card {
+        background: #fbfbfb;
+        border-radius: 8px;
+        box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+        height: 410px;
+        margin: 6rem auto 8.1rem auto;
+        width: 329px;
+      }
+      h1 {
+        text-align: center;
+        font-weight: 300;
+      }
+
+      .tulisan_login {
+        text-align: center;
+        text-transform: uppercase;
+      }
+
+      .kotak_login {
+        width: 350px;
+        background: white;
+        margin: 80px auto;
+        padding: 30px 20px;
+        border-radius: 6px;
+      }
+
+      label {
+        font-size: 11pt;
+      }
+
+      .form_login {
+        box-sizing: border-box;
+        width: 100%;
+        border-radius: 6px;
+        padding: 10px;
+        font-size: 11pt;
+        margin-bottom: 20px;
+      }
+
+      .tombol_login {
+        background: #ff4c29;
+        color: white;
+        font-size: 11pt;
+        width: 100%;
+        border: none;
+        border-radius: 6px;
+        padding: 10px 20px;
+      }
+      .tombol_signup {
+        background: #5e5e5e;
+        color: rgb(161, 161, 161);
+        font-size: 11pt;
+        width: 100%;
+        border: none;
+        border-radius: 6px;
+        padding: 10px 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="logo"><figure>
+            <img src="resource/GOMA.png" />
+        </figure></div>
+      <div class="menu-right">
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="news.html">news</a></li>
+          <li><a href="topup.html">topup</a></li>
+          <li><a href="">about</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="kotak_login">
+      <p class="tulisan_login">lOGIN</p>
+
+      <form>
+        <label>Username</label>
+        <input
+          type="text"
+          name="username"
+          class="form_login"
+          placeholder="Username atau email .."
+        />
+
+        <label>Password</label>
+        <input
+          type="text"
+          name="password"
+          class="form_login"
+          placeholder="Password .."
+        />
+
+        <input type="submit" class="tombol_login" value="Login" />
+
+        <br />
+        <br />
+ <center>       <a href="signup.html" class="">Sign Up</a></center>
+      </form>
+    </div>
+  </body>
+</html>

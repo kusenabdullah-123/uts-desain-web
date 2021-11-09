@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Topup Detail</title>
+    <style type="text/css">
+      .logo figure {
+        display: flex;
+        justify-content: flex-end;
+        width: 210px;
+        height: 40px;
+      }
+
+      body {
+        margin: 0px;
+        padding: 0px;
+        background-color: #082032;
+      }
+
+      nav {
+        height: 60px;
+        background-color: #334756;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .menu-right {
+        display: flex;
+        align-items: center;
+        margin-right: 70px;
+      }
+
+      ul {
+        list-style-type: none;
+        display: flex;
+      }
+
+      ul li {
+        width: 100px;
+      }
+
+      ul li:hover {
+        cursor: pointer;
+      }
+
+      ul li a {
+        text-decoration: none;
+        color: #ffffff;
+        text-transform: capitalize;
+      }
+
+      nav .menu-right button.login {
+        margin-left: 20px;
+        width: 88px;
+        height: 41px;
+        background-color: #ff4c29;
+        color: #ffffff;
+        border-radius: 10px;
+      }
+
+      .menu-right button.login:hover {
+        cursor: pointer;
+      }
+
+      .menu-right a {
+        color: white;
+      }
+
+      header figure {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      section.container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+
+      aside {
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        width: 460px;
+      }
+
+      aside .judul {
+        display: flex;
+        flex-direction: row;
+      }
+
+      aside h1,
+      aside article p {
+        color: white;
+      }
+
+      main {
+        width: 655px;
+        height: 600px;
+      }
+
+      footer {
+        height: 130px;
+        background-color: #334756;
+      }
+
+      footer ul li a {
+        text-decoration: none;
+        color: #000000;
+        text-transform: capitalize;
+      }
+
+      footer .sosial-media {
+        display: flex;
+        align-items: center;
+      }
+          footer figure {
+        display: flex;
+        flex-direction: flex-end;
+          width: 210px;
+        height: 40px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <div class="logo"><figure>
+            <img src="resource/GOMA.png" />
+        </figure></div>
+      <div class="menu-right">
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="news.html">news</a></li>
+          <li><a href="topup.html">topup</a></li>
+          <li><a href="">about</a></li>
+        </ul>
+        <a href="login.html">Login</a>
+      </div>
+    </nav>
+    <header>
+      <figure>
+        <img
+          src="resource/background.jpg"
+          alt="gambar "
+          width="100%"
+          height="400px"
+        />
+      </figure>
+    </header>
+    <section class="container">
+      <aside>
+        <div class="judul">
+          <figure>
+            <img src="resource/cod-warzone.jpg" height="181px" width="181px" />
+          </figure>
+          <h1>Call Of Duty</h1>
+        </div>
+        <article>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at
+            condimentum tortor. Quisque vitae ultrices neque. Aenean pretium
+            hendrerit velit.
+          </p>
+        </article>
+      </aside>
+      <main>
+        <h1>Input Your game id</h1>
+        <form>
+          <section>
+            <div class="form-group">
+              <label>Please Insert Your Id Correcly</label>
+              <input type="text" name="id" />
+            </div>
+            <button>Cek</button>
+          </section>
+          <section>
+            <h1>Select Ammount Of Item</h1>
+            <div class="item">
+              <button>31 CP</button>
+              <button>32 CP</button>
+              <button>33 CP</button>
+              <button>34 CP</button>
+              <button>35 CP</button>
+              <button>36 CP</button>
+              <button>37 CP</button>
+              <button>38 CP</button>
+            </div>
+          </section>
+          <section>
+            <h1>Payment Method</h1>
+            <div class="Payment">
+              <button>Dana</button>
+              <button>Gopay</button>
+              <button>Link aja</button>
+              <button>BRI</button>
+              <button>BNI</button>
+              <button>Permata</button>
+            </div>
+          </section>
+          <section>
+            <article>
+              <p>Total : 200.000</p>
+              <small>Price Include Tax</small>
+            </article>
+            <button>Buy Now</button>
+          </section>
+        </form>
+      </main>
+    </section>
+    <footer>
+     <figure>
+            <img src="resource/GOMA.png" />
+        </figure>
+      <ul>
+        <li><a href="">home</a></li>
+        <li><a href="">news</a></li>
+        <li><a href="">topup</a></li>
+        <li><a href="">about</a></li>
+      </ul>
+      <div class="sosial-media">
+        <span class="iconify" data-icon="bi:facebook" data-width="35"></span>
+        <span
+          class="iconify"
+          data-icon="ant-design:twitter-circle-filled"
+          data-width="40"
+        ></span>
+        <span
+          class="iconify"
+          data-icon="ant-design:youtube-filled"
+          data-width="40"
+        ></span>
+        <span
+          class="iconify"
+          data-icon="ant-design:instagram-filled"
+          data-width="40"
+        ></span>
+        <span class="iconify" data-icon="bi:telegram" data-width="40"></span>
+      </div>
+    </footer>
+    <script src="iconify.min.js"></script>
+  </body>
+</html>
